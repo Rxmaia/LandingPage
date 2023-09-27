@@ -1,141 +1,143 @@
-/* Estilos gerais */
+/* Estilos gerais para o corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo da página */
+    margin: 0; /* Remove as margens padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+    background-color: #4D9A44; /* Define a cor de fundo */
 }
 
+/* Estilos para o contêiner principal da página */
 .container {
-    max-width: 960px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 960px; /* Define a largura máxima do contêiner */
+    margin: 20px auto; /* Centraliza o contêiner horizontalmente */
+    padding: 20px; /* Adiciona preenchimento interno ao contêiner */
+    background-color: #ffffff; /* Define a cor de fundo do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
 }
 
+/* Estilos para cabeçalhos h1 e h2 */
 h1, h2 {
-    text-align: center;
+    text-align: center; /* Centraliza o texto dentro dos cabeçalhos */
 }
 
 /* Estilos para a barra de pesquisa */
 .search-bar {
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 20px; /* Espaço superior para separar a barra de pesquisa */
+    text-align: center; /* Centraliza os elementos da barra de pesquisa */
 }
 
 .search-bar input[type="text"] {
-    padding: 10px;
-    width: 60%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    margin-right: 10px;
+    padding: 10px; /* Adiciona preenchimento interno ao campo de pesquisa */
+    width: 60%; /* Define a largura do campo de pesquisa */
+    border: 1px solid #ccc; /* Adiciona uma borda fina */
+    border-radius: 4px; /* Adiciona bordas arredondadas */
+    font-size: 16px; /* Define o tamanho da fonte */
+    margin-right: 10px; /* Espaço à direita do campo de pesquisa */
 }
 
 .search-bar button[type="button"] {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+    background-color: #333; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    font-size: 16px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Mostra o cursor como uma mão ao passar sobre o botão */
 }
 
 .search-bar button[type="button"]:hover {
-    background-color: #555;
+    background-color: #555; /* Cor de fundo alterada ao passar o mouse sobre o botão */
 }
 
 /* Estilos para o formulário de cadastro */
 .cadastro {
-    margin-top: 40px;
-    text-align: center;
+    margin-top: 40px; /* Espaço superior para separar o formulário de pesquisa */
+    text-align: center; /* Centraliza os elementos do formulário */
 }
 
 .cadastro h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 24px; /* Tamanho da fonte para o cabeçalho do formulário */
+    margin-bottom: 20px; /* Espaço inferior abaixo do cabeçalho */
 }
 
 .cadastro form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /* Usa layout flexível para alinhar os elementos internos */
+    flex-direction: column; /* Coloca os elementos em uma coluna */
+    align-items: center; /* Centraliza os elementos horizontalmente */
 }
 
 .cadastro label {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 18px; /* Tamanho da fonte para rótulos */
+    margin-bottom: 10px; /* Espaço inferior abaixo dos rótulos */
 }
 
 .cadastro input[type="text"],
 .cadastro input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+    width: 100%; /* Preenche a largura total do contêiner pai */
+    padding: 10px; /* Adiciona preenchimento interno aos campos de entrada */
+    margin-bottom: 20px; /* Espaço inferior abaixo dos campos de entrada */
+    border: 1px solid #ccc; /* Adiciona uma borda fina */
+    border-radius: 4px; /* Adiciona bordas arredondadas */
+    font-size: 16px; /* Define o tamanho da fonte */
 }
 
 .cadastro button[type="submit"] {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+    background-color: #333; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+    font-size: 16px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Mostra o cursor como uma mão ao passar sobre o botão */
 }
 
 .cadastro button[type="submit"]:hover {
-    background-color: #555;
+    background-color: #555; /* Cor de fundo alterada ao passar o mouse sobre o botão */
 }
 
 /* Estilos para as cadeiras gamers */
 .cadeiras {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+    display: flex; /* Usa layout flexível para exibir as cadeiras lado a lado */
+    justify-content: space-between; /* Distribui o espaço entre as cadeiras */
+    margin-top: 40px; /* Espaço superior para separar as cadeiras */
 }
 
 .cadeira {
-    flex: 0 1 calc(33.33% - 20px);
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    flex: 0 1 calc(33.33% - 20px); /* Define a largura e a flexibilidade das cadeiras */
+    background-color: #fff; /* Cor de fundo das cadeiras */
+    padding: 20px; /* Adiciona preenchimento interno às cadeiras */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave às cadeiras */
+    text-align: center; /* Centraliza o texto dentro das cadeiras */
 }
 
 .cadeira img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Garante que a imagem se ajuste à largura da cadeira */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 .price {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff6600;
-    margin-top: 10px;
+    font-size: 24px; /* Tamanho da fonte para os preços */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    color: #ff6600; /* Cor dos preços */
+    margin-top: 10px; /* Espaço superior para separar os preços */
 }
 
 /* Estilos para o rodapé */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 20px 0; /* Adiciona preenchimento interno ao rodapé */
 }
 
 /* Estilos para links no rodapé */
 footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
+    color: #fff; /* Cor do texto dos links no rodapé */
+    text-decoration: none; /* Remove a sublinhado padrão dos links */
+    margin: 0 10px; /* Espaço entre os links no rodapé */
 }
 
-/* Estilos para hover nos links do menu */
+/* Estilos para hover nos links do menu no cabeçalho */
 header a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre os links no cabeçalho */
 }
